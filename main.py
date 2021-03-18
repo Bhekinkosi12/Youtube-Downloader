@@ -3,10 +3,10 @@ import tkinter as tk
 from tkinter.filedialog import *
 from pytube import YouTube, request
 
-
+btnState
 # dark mode :
 def darkmode():
-    global btnState
+    
     if btnState:
         btn.config(image=offImg, bg="#CECCBE", activebackground="#CECCBE")
         root.config(bg="#CECCBE")
